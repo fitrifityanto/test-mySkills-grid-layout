@@ -5,3 +5,26 @@
     --fcolor:white;
     --fsize:1.25rem;
 }
+
+.container {
+    display: grid;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container > div {
+    text-align: center;
+    font-size: var(--fsize);
+    background-color: var(--color-bgprimary);
+    color: var(--fcolor);
+    border: 2px solid rgb(93, 119, 142);
+    border-radius:10px;
+    padding: 0.3125rem;
+    line-height:2rem ;
+}
+
+.container > div > a {
+    color: var(--fcolor);
+    text-decoration: none;
+}
