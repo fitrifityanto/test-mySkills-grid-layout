@@ -1,0 +1,7 @@
+:root {
+    --color-bgprimary:rgb(65, 108, 144);
+    --color-bgsecondary:rgb(110, 110, 111);
+    --color-bgthird:rgb(201, 21, 123);
+    --fcolor:white;
+    --fsize:1.25rem;
+}
