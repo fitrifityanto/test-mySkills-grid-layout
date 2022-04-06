@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "one one"
+    "two three"
+    ". four"
+    ;
+    gap: 10px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .grid > div {
+    color: var(--fcolor);
+    background-color: var(--color-bgprimary);
+    font-size: var(--fsize);
+    border-radius:10px;
+    padding: 0.3125rem;
+    line-height:2rem ;
+    border: 3px solid rgb(93, 119, 142);
+  }
+
+  .one { grid-area: one;}
+  .two { grid-area: two;}
+  .three { grid-area: three;}
+  .four { grid-area: four;}
