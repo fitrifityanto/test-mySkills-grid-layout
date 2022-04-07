@@ -6,11 +6,17 @@
     --fsize:1.25rem;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container-utama {
     display: grid;
     gap: 20px;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 .container-utama > div {
