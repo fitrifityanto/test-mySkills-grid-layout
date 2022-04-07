@@ -6,14 +6,14 @@
     --fsize:1.25rem;
 }
 
-.container {
+.container-utama {
     display: grid;
     gap: 20px;
     max-width: 600px;
     margin: 0 auto;
 }
 
-.container > div {
+.container-utama > div {
     text-align: center;
     font-size: var(--fsize);
     background-color: var(--color-bgprimary);
@@ -24,7 +24,7 @@
     line-height:2rem ;
 }
 
-.container > div > a {
+.container-utama a {
     color: var(--fcolor);
     text-decoration: none;
 }
